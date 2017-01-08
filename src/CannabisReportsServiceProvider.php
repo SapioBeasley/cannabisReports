@@ -23,7 +23,6 @@ class CannabisReportsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        include __DIR__.'/routes.php';
         $this->app->make('Sapioweb\CannabisReports\CannabisDispensaries');
         $this->app->make('Sapioweb\CannabisReports\CannabisEdibles');
         $this->app->make('Sapioweb\CannabisReports\CannabisExtracts');
