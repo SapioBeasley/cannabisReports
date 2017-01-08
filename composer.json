@@ -5,14 +5,14 @@
     "authors": [
         {
             "name": "Andreas Beasley",
-            "email": "andreas.beasley@gmail.com"
+            "email": "andreas@sapioweb.com"
         }
     ],
     "require": {},
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Sapioweb\\CannabisReports\\": "Libraries/sapioweb/cannabisReports/src"
+            "Sapioweb\\CannabisReports\\": "src"
         }
     }
 }
