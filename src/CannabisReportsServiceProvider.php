@@ -23,13 +23,13 @@ class CannabisReportsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Sapioweb\CannabisReports\CannabisDispensaries');
-        $this->app->make('Sapioweb\CannabisReports\CannabisEdibles');
-        $this->app->make('Sapioweb\CannabisReports\CannabisExtracts');
-        $this->app->make('Sapioweb\CannabisReports\CannabisFlowers');
-        $this->app->make('Sapioweb\CannabisReports\CannabisProducers');
-        $this->app->make('Sapioweb\CannabisReports\CannabisProducts');
-        $this->app->make('Sapioweb\CannabisReports\CannabisSeedCompanies');
-        $this->app->make('Sapioweb\CannabisReports\CannabisStrains');
+        $this->app->make('CannabisDispensaries');
+        $this->app->make('CannabisEdibles');
+        $this->app->make('CannabisExtracts');
+        $this->app->make('CannabisFlowers');
+        $this->app->make('CannabisProducers');
+        $this->app->make('CannabisProducts');
+        $this->app->make('CannabisSeedCompanies');
+        $this->app->make('CannabisStrains');
     }
 }
