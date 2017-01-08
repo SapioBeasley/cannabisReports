@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Libraries;
+namespace Sapioweb\CannabisReports;
 
 class CannabisExtracts
 {
